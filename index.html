@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta value="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+        <h1>Calculator task</h1>
+    </div>
+    <div class="container" id="values">
+        <input type="number" class="grid1" id="res">
+        <button type="button" value="AC" onclick="clr()">AC</button>
+        <button type="button" value="DE" onclick="inop(this.value)">%</button>
+        <button type="button" value="." onclick="inop(this.value)">.</button>
+        <button type="button" value="/" onclick="inop(this.value)">/</button>
+        <button type="button" value="7" onclick="inval(this.value)">7</button>
+        <button type="button" value="8" onclick="inval(this.value)">8</button>
+        <button type="button" value="9" onclick="inval(this.value)">9</button>
+        <button type="button" value="*" onclick="inop(this.value)">*</button>
+        <button type="button" value="4" onclick="inval(this.value)">4</button>
+        <button type="button" value="5" onclick="inval(this.value)">5</button>
+        <button type="button" value="6" onclick="inval(this.value)">6</button>
+        <button type="button" value="+" onclick="inop(this.value)">+</button>
+        <button type="button" value="1" onclick="inval(this.value)">1</button>
+        <button type="button" value="2" onclick="inval(this.value)">2</button>
+        <button type="button" value="3" onclick="inval(this.value)">3</button>
+        <button type="button" value="-" onclick="inop(this.value)">-</button>
+        <button type="button" value="00" onclick="inval(this.value)">00</button>
+        <button type="button" value="0" onclick="inval(this.value)">0</button>
+        <button type="button" value="=" class="grid2" onclick="calculate()">=</button>
+
+    </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
